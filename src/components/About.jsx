@@ -70,7 +70,7 @@ const About = () => {
           <motion.button
             className="bg-tertiary text-secondary px-10 py-5 rounded-[20px]"
             onClick={() => {
-              window.location.href = 'https://drive.google.com/file/d/18B19l9OgFzmQDc2wfZyOu2LMPXh4JCkU/view?usp=sharing'; 
+              window.location.href = 'https://drive.google.com/file/d/15QZes88ScK6mOLI7zWVdg8dUOiTvNFS8/view?usp=sharing'; 
             }}
           >
             Resume
