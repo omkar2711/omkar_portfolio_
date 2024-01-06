@@ -12,10 +12,11 @@ import {
   mongodb,
   git,
   figma,
-  // meta,
-  // starbucks,
-  // tesla,
-  // shopify,
+  meta,
+  starbucks,
+  syncsense,
+  tesla,
+  shopify,
   carrent,
   jobit,
   tripguide,
@@ -117,16 +118,13 @@ const Social = [
       "Omkar Bharitkar",
     handle_link:"https://www.linkedin.com/in/omkar-bharitkar-88a912200/",
     name: "LinkedIn",
-    
-    image: "https://media.licdn.com/dms/image/C4E03AQGj9gXocvA27A/profile-displayphoto-shrink_800_800/0/1636467696053?e=2147483647&v=beta&t=hkPuFdsW818Y5YqyRLgsElvEt2o6VmJKYJxMeHDgIIQ",
-  },
+    image: "https://avatars.githubusercontent.com/u/75433632?v=4",  },
   {
     handle:
       "_o_m_k_a_r_2711",
     handle_link:"https://www.instagram.com/_o_m_k_a_r_2711/",
     name: "Instagram",
-    image: "https://cdn.inflact.com/media/302969218_448846463940554_7880785948914438942_n.jpg?url=https%3A%2F%2Fscontent.cdninstagram.com%2Fv%2Ft51.2885-19%2F302969218_448846463940554_7880785948914438942_n.jpg%3Fstp%3Ddst-jpg_s320x320%26_nc_ht%3Dinstagram.ftdg1-1.fna.fbcdn.net%26_nc_cat%3D102%26_nc_ohc%3DF6cr6BpjxagAX9OwhkZ%26edm%3DAOQ1c0wBAAAA%26ccb%3D7-5%26oh%3D00_AfDtBiPMmF2JOpcDZT7WeOjrwyE4AUQDdxBnRC02KhEPYw%26oe%3D64CE889A%26_nc_sid%3D8b3546&time=1690970400&key=497cd3752ea6918880c63dc8aa53eb53",
-  },
+    image: "https://avatars.githubusercontent.com/u/75433632?v=4",  },
 ];
 
 const projects = [
@@ -199,4 +197,59 @@ const projects = [
   },
 ];
 
-export { services, technologies, Social, projects };
+const experiences = [
+  {
+    title: "Software Developer Engineer",
+    company_name: "SyncSense",
+    icon: syncsense,
+    iconBg: "#131313",
+    date: "Oct 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  // {
+  //   title: "React Native Developer",
+  //   company_name: "Tesla",
+  //   icon: tesla,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2021 - Feb 2022",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+];
+
+export { services, technologies,experiences, Social, projects };

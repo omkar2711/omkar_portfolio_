@@ -7,12 +7,14 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import Experience from "./Experience";
 
 
 export {
   Hero,
   Navbar,
   About,
+  Experience,
   Tech,
   Works,
   Feedbacks,
