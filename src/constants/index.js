@@ -52,11 +52,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "UI / UX",
+    title: "Content Creator",
     icon: backend,
   },
   {
-    title: "React Native Developer",
+    title: "Mentor",
     icon: creator,
   },
 ];
