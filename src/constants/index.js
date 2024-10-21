@@ -17,6 +17,7 @@ import {
   syncsense,
   tesla,
   shopify,
+  upgrad,
   carrent,
   jobit,
   tripguide,
@@ -227,7 +228,7 @@ const experiences = [
   {
     title: "Technical Content Strategist Intern",
     company_name: "upGrad",
-    icon: shopify,
+    icon: upgrad,
     iconBg: "#383E56",
     date: "March 2024 - July 2024",
     points: [
@@ -239,7 +240,7 @@ const experiences = [
   {
     title: "Associate - Content",
     company_name: "upGrad",
-    icon: meta,
+    icon: upgrad,
     iconBg: "#E6DEDD",
     date: "July 2024 - Present",
     points: [
