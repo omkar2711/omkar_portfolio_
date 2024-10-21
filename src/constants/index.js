@@ -229,7 +229,7 @@ const experiences = [
     title: "Technical Content Strategist Intern",
     company_name: "upGrad",
     icon: upgrad,
-    iconBg: "#383E56",
+    iconBg: "#e62d3e",
     date: "March 2024 - July 2024",
     points: [
       "Directed content development for a full stack development cohort, with a strong emphasis on practical skills.",
@@ -241,7 +241,7 @@ const experiences = [
     title: "Associate - Content",
     company_name: "upGrad",
     icon: upgrad,
-    iconBg: "#E6DEDD",
+    iconBg: "#e62d3e",
     date: "July 2024 - Present",
     points: [
       "Assisted senior instructors in teaching 80+ students across 4 batches in Full Stack Development.",
