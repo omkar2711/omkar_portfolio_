@@ -204,7 +204,7 @@ const experiences = [
     company_name: "SyncSense",
     icon: syncsense,
     iconBg: "#131313",
-    date: "Oct 2023 - Present",
+    date: "Oct 2023 - March 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
