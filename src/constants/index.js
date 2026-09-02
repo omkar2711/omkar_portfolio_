@@ -18,6 +18,7 @@ import {
   tesla,
   shopify,
   upgrad,
+  nxtwave,
   carrent,
   jobit,
   tripguide,
@@ -46,19 +47,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Developer",
     icon: web,
   },
   {
-    title: "Software Developer",
+    title: "Content Creator",
     icon: mobile,
   },
   {
-    title: "Content Creator",
+    title: "Freelancer",
     icon: backend,
   },
   {
-    title: "Mentor",
+    title: "Educator",
     icon: creator,
   },
 ];
@@ -224,54 +225,60 @@ const projects = [
 
 const experiences = [
   {
-    title: "Software Developer Engineer Intern",
+    title: "SDE Intern",
     company_name: "SyncSense",
     icon: syncsense,
     iconBg: "#131313",
-    date: "Oct 2023 - March 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  {
-    title: "Technical Content Strategist Intern",
-    company_name: "upGrad",
-    icon: upgrad,
-    iconBg: "#e62d3e",
-    date: "March 2024 - July 2024",
-    points: [
-      "Directed content development for a full stack development cohort, with a strong emphasis on practical skills.",
-      "Collaborated closely with industry experts to ensure the curriculum met current and evolving professional standards.",
-      "Utilized Java for implementing data structures and employed the MERN Stack for full-stack development projects.",
+      "Wrote my first production-level code and shipped frontend features users loved.",
+      "Migrated backend systems — a crash course in scalability and reliability.",
     ],
   },
   {
-    title: "Associate - Content",
+    title: "Technical Intern → Principal Instructor",
     company_name: "upGrad",
     icon: upgrad,
     iconBg: "#e62d3e",
-    date: "July 2024 - Present",
     points: [
-      "Assisted senior instructors in teaching 80+ students across 4 batches in Full Stack Development.",
-      "Created curriculum, incorporating industry insights and practical case studies to enhance learning.",
-      "Led doubt-solving sessions and provided personal guidance to support learners in understanding key concepts.",
-      "Designed capstone web development projects to give students hands-on experience with real-world applications.",
+      "Led content development and mentored 80+ students across batches.",
+      "Grew from a technical role into leading the Full Stack vertical across India.",
+    ],
+    subRoles: [
+      {
+        title: "Tech Intern",
+        iconBg: "#e62d3e",
+        points: ["Learned multitasking and cross-team collaboration."],
+      },
+      {
+        title: "Associate",
+        iconBg: "#e62d3e",
+        points: ["Owned products and shipped campaign websites end-to-end."],
+      },
+      {
+        title: "Senior Associate",
+        iconBg: "#e62d3e",
+        points: ["Led a pan-India team across multiple EdTech domains."],
+      },
+      {
+        title: "Lead Instructor",
+        iconBg: "#e62d3e",
+        points: ["Awarded Knowledge Powerhouse of upGrad among 500+ employees."],
+      },
+      {
+        title: "Principal Instructor",
+        iconBg: "#e62d3e",
+        points: ["Led the entire Full Stack vertical; created content reaching learners on YouTube."],
+      },
+    ],
+  },
+  {
+    title: "SDE - II",
+    company_name: "NxtWave",
+    icon: nxtwave,
+    iconBg: "#13131c",
+    points: [
+      "Moved to Hyderabad to work directly alongside the co-founders.",
+      "Learning faster, thinking bigger, and solving harder problems every day.",
     ],
   },
 ];

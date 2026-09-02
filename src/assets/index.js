@@ -28,6 +28,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import syncsense from "./company/syncsense.png";
 import upgrad from "./company/upgrad.png";
+import nxtwave from "./company/nxtwave.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -66,5 +67,6 @@ export {
   jobit,
   tripguide,
   upgrad,
+  nxtwave,
   wanderer_social,
 };

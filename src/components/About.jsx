@@ -49,10 +49,9 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I am Omkar Bharitkar, an undergraduate at IIIT Pune and a full-stack web developer,
-          IoT enthusiast, tech-savvy individual, and a passionate traveler.<br />
-          Eager to use my skills and knowledge in 
-          web and software development to make a meaningful contribution.
+          I build it, ship it, film it, then explain it.
+          <br /><br />
+          Full-stack developer who enjoys the front end, respects the back end, and can't resist teaching whatever I just figured out — mostly on YouTube. Traveler on weekends, debugger on weekdays.
   
         </motion.p>
 
